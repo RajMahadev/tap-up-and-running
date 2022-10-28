@@ -69,9 +69,9 @@ tap_gui:
 
 # setup the build service 
 buildservice:
-  kp_default_repository: "rajatos,azurecr.io/build-service"  # Build service images will be stored here, not application images containerzed by TBS
+  kp_default_repository: "rajatos.azurecr.io/build-service"  # Build service images will be stored here, not application images containerzed by TBS
   kp_default_repository_username: "rajatos" 
-  kp_default_repository_password: "gRjZWo+ffjJ8ekLrmQwvVUps9cj8UGRH"
+  kp_default_repository_password: "m43zOTKAhpKUFv0dPzxnxvffnMjj3+L="
   tanzunet_username: "graj@onemagnify.com" # creds for tanzu net so that installer can pull images from tanzu net and put them in the defalut repo 
   tanzunet_password: "Sup3rS0n1c$"
   descriptor_name: "tap-1.0.0-full"
