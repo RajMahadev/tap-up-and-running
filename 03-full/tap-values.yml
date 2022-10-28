@@ -88,7 +88,7 @@ supply_chain: basic
 #ootb_supply_chain_testing_scanning:
 ootb_supply_chain_basic:
   registry:
-    server: "rajatos,azurecr.io" # TBS will write container images to this OCI registry 
+    server: "rajatos.azurecr.io" # TBS will write container images to this OCI registry 
     repository: "apps"  # contairezed app images will go into this repo 
   gitops:
     ssh_secret: ""
